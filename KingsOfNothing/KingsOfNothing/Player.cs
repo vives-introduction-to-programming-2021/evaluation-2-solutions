@@ -10,18 +10,27 @@ namespace KingsOfNothing
         {
             // TODO - Pas de speler zijn huidige locatie aan met de
             // de waarden deltaX en deltaY.
-
-
-
-
+            this.locationX = this.locationX + deltaX;
+            this.locationY = this.locationY + deltaY;
         }
 
         public void Damage(int damage)
         {
             // TODO - Verlaag het leven `health` van de gebruiker met de
-            // hoeveelheid in `damaga`. Zorg er wel voor dat `health` niet
+            // hoeveelheid in `damage`. Zorg er wel voor dat `health` niet
             // kleiner dan 0 gaat.
 
+            if (health - damage > 0)
+            {
+                health = health - damage;
+            }
+            else
+            {
+                health = 0;
+            }
+
+            // Or very short
+            //health = Math.Max(health - damage, 0);
 
 
         }
@@ -31,9 +40,18 @@ namespace KingsOfNothing
             // TODO - Geef aan of de speler nog in leven is. Dit is het geval
             // indien de `health` groter is dan 0.
 
+            //if (health > 0)
+            //{
+            //    return true;
+            //}
+            //else
+            //{
+            //    return false;
+            //}
 
+            //SAME
 
-            return false;
+            return health > 0;
         }
 
         public void Heal(int amount)
@@ -41,8 +59,14 @@ namespace KingsOfNothing
             // TODO - Verhoog de speler zijn leven indien deze niet dood is.
             // Zorg er wel voor dat de health niet hoger dan 100 kan gaan.
 
-
-            
+            if (IsAlive())
+            {
+                health = health + amount;
+                if (health > 100)
+                {
+                    health = 100;
+                }
+            }
         }
         
         // Attributes

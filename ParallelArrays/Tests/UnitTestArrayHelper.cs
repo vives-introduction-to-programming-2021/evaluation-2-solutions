@@ -51,11 +51,6 @@ namespace Tests
             Assert.Equal(new int[] { 15, 11, 3, 0, 0, 0, 0, 0 }, ArrayHelper.DoubleInSize(
                 new int[] { 15, 11, 3, 0 }
             ));
-
-            Assert.Equal(new int[] { 16, 12, 40, 110, 0, 33 }, ArrayHelper.SumByElements(
-                new int[] { 0, 12, 40, 55, 0, 0 },
-                new int[] { 16, 0, 0, 55, 0, 33 }
-            ));
         }
     }
 }

@@ -47,6 +47,15 @@ namespace Tests
 
             myString.SetText("     ");
             Assert.False(myString.IsValidNumber());
+
+            myString.SetText("+1234");
+            Assert.True(myString.IsValidNumber());
+
+            myString.SetText("-1234");
+            Assert.True(myString.IsValidNumber());
+
+            myString.SetText("-12a34");
+            Assert.False(myString.IsValidNumber());
         }
 
         [Fact]
