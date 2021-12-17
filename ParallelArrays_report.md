@@ -3,10 +3,10 @@
 ### Run Summary
 
 <p>
-<strong>Overall Result:</strong> ❌ Fail <br />
-<strong>Pass Rate:</strong> 0% <br />
-<strong>Run Duration:</strong> 1s 944ms <br />
-<strong>Date:</strong> 2021-12-14 14:49:28 - 2021-12-14 14:49:30 <br />
+<strong>Overall Result:</strong> ✔️ Pass <br />
+<strong>Pass Rate:</strong> 100% <br />
+<strong>Run Duration:</strong> 1s 895ms <br />
+<strong>Date:</strong> 2021-12-17 08:26:15 - 2021-12-17 08:26:17 <br />
 <strong>Framework:</strong> .NETCoreApp,Version=v3.1 <br />
 <strong>Total Tests:</strong> 3 <br />
 </p>
@@ -21,20 +21,20 @@
 </thead>
 <tbody>
 <tr>
-<td>0</td>
 <td>3</td>
+<td>0</td>
 <td>0</td>
 </tr>
 <tr>
-<td>0%</td>
 <td>100%</td>
+<td>0%</td>
 <td>0%</td>
 </tr>
 </tbody>
 </table>
 
 ### Result Sets
-#### Tests.dll - 0%
+#### Tests.dll - 100%
 <details>
 <summary>Full Results</summary>
 <table>
@@ -46,43 +46,18 @@
 </tr>
 </thead>
 <tr>
-<td> ❌ Failed </td>
-<td>Tests.UnitTestArrayHelper.TestSumByElements<blockquote><details>
-<summary>Error</summary>
-<strong>Message:</strong>
-<pre><code>Assert.Equal() Failure
-Expected: Int32[] [1, 2, 3, 4]
-Actual:   (null)</code></pre>
-<strong>Stack Trace:</strong>
-<pre><code>   at Tests.UnitTestArrayHelper.TestSumByElements() in /home/runner/work/csharp-evaluation-2-2021-BioBoost/csharp-evaluation-2-2021-BioBoost/ParallelArrays/Tests/UnitTestArrayHelper.cs:line 26</code></pre>
-</details></blockquote>
-</td>
-<td>7ms</td>
+<td> ✔️ Passed </td>
+<td>Tests.UnitTestArrayHelper.TestSumByElements</td>
+<td>8ms</td>
 </tr>
 <tr>
-<td> ❌ Failed </td>
-<td>Tests.UnitTestArrayHelper.TestCountDifferentFrom<blockquote><details>
-<summary>Error</summary>
-<strong>Message:</strong>
-<pre><code>Assert.Equal() Failure
-Expected: 3
-Actual:   -1</code></pre>
-<strong>Stack Trace:</strong>
-<pre><code>   at Tests.UnitTestArrayHelper.TestCountDifferentFrom() in /home/runner/work/csharp-evaluation-2-2021-BioBoost/csharp-evaluation-2-2021-BioBoost/ParallelArrays/Tests/UnitTestArrayHelper.cs:line 13</code></pre>
-</details></blockquote>
-</td>
-<td>1ms</td>
+<td> ✔️ Passed </td>
+<td>Tests.UnitTestArrayHelper.TestCountDifferentFrom</td>
+<td>2ms</td>
 </tr>
 <tr>
-<td> ❌ Failed </td>
-<td>Tests.UnitTestArrayHelper.TestDoubleInSize<blockquote><details>
-<summary>Error</summary>
-<strong>Message:</strong>
-<pre><code>System.NullReferenceException : Object reference not set to an instance of an object.</code></pre>
-<strong>Stack Trace:</strong>
-<pre><code>   at Tests.UnitTestArrayHelper.TestDoubleInSize() in /home/runner/work/csharp-evaluation-2-2021-BioBoost/csharp-evaluation-2-2021-BioBoost/ParallelArrays/Tests/UnitTestArrayHelper.cs:line 45</code></pre>
-</details></blockquote>
-</td>
+<td> ✔️ Passed </td>
+<td>Tests.UnitTestArrayHelper.TestDoubleInSize</td>
 <td>< 1ms</td>
 </tr>
 </tbody>
@@ -94,23 +69,10 @@ Actual:   -1</code></pre>
 <summary>Informational</summary>
 <pre><code>
 [xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET Core 3.1.1)
-[xUnit.net 00:00:00.37]   Discovering: Tests
-[xUnit.net 00:00:00.42]   Discovered:  Tests
-[xUnit.net 00:00:00.42]   Starting:    Tests
-[xUnit.net 00:00:00.52]       Assert.Equal() Failure
-[xUnit.net 00:00:00.52]       Expected: Int32[] [1, 2, 3, 4]
-[xUnit.net 00:00:00.52]       Actual:   (null)
-[xUnit.net 00:00:00.52]       Stack Trace:
-[xUnit.net 00:00:00.52]         /home/runner/work/csharp-evaluation-2-2021-BioBoost/csharp-evaluation-2-2021-BioBoost/ParallelArrays/Tests/UnitTestArrayHelper.cs(26,0): at Tests.UnitTestArrayHelper.TestSumByElements()
-[xUnit.net 00:00:00.52]       Assert.Equal() Failure
-[xUnit.net 00:00:00.52]       Expected: 3
-[xUnit.net 00:00:00.52]       Actual:   -1
-[xUnit.net 00:00:00.53]       Stack Trace:
-[xUnit.net 00:00:00.53]         /home/runner/work/csharp-evaluation-2-2021-BioBoost/csharp-evaluation-2-2021-BioBoost/ParallelArrays/Tests/UnitTestArrayHelper.cs(13,0): at Tests.UnitTestArrayHelper.TestCountDifferentFrom()
-[xUnit.net 00:00:00.53]       System.NullReferenceException : Object reference not set to an instance of an object.
-[xUnit.net 00:00:00.53]       Stack Trace:
-[xUnit.net 00:00:00.53]         /home/runner/work/csharp-evaluation-2-2021-BioBoost/csharp-evaluation-2-2021-BioBoost/ParallelArrays/Tests/UnitTestArrayHelper.cs(45,0): at Tests.UnitTestArrayHelper.TestDoubleInSize()
-[xUnit.net 00:00:00.53]   Finished:    Tests
+[xUnit.net 00:00:00.35]   Discovering: Tests
+[xUnit.net 00:00:00.41]   Discovered:  Tests
+[xUnit.net 00:00:00.41]   Starting:    Tests
+[xUnit.net 00:00:00.49]   Finished:    Tests
 </code></pre>
 </details>
 
@@ -123,9 +85,6 @@ Actual:   -1</code></pre>
 <details>
 <summary>Error</summary>
 <pre><code>
-[xUnit.net 00:00:00.51]     Tests.UnitTestArrayHelper.TestSumByElements [FAIL]
-[xUnit.net 00:00:00.52]     Tests.UnitTestArrayHelper.TestCountDifferentFrom [FAIL]
-[xUnit.net 00:00:00.53]     Tests.UnitTestArrayHelper.TestDoubleInSize [FAIL]
 </code></pre>
 </details>
 
