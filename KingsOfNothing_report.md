@@ -3,10 +3,10 @@
 ### Run Summary
 
 <p>
-<strong>Overall Result:</strong> ❌ Fail <br />
-<strong>Pass Rate:</strong> 0% <br />
-<strong>Run Duration:</strong> 1s 918ms <br />
-<strong>Date:</strong> 2021-12-14 14:50:02 - 2021-12-14 14:50:04 <br />
+<strong>Overall Result:</strong> ✔️ Pass <br />
+<strong>Pass Rate:</strong> 100% <br />
+<strong>Run Duration:</strong> 1s 887ms <br />
+<strong>Date:</strong> 2021-12-17 08:26:46 - 2021-12-17 08:26:47 <br />
 <strong>Framework:</strong> .NETCoreApp,Version=v3.1 <br />
 <strong>Total Tests:</strong> 4 <br />
 </p>
@@ -21,20 +21,20 @@
 </thead>
 <tbody>
 <tr>
-<td>0</td>
 <td>4</td>
+<td>0</td>
 <td>0</td>
 </tr>
 <tr>
-<td>0%</td>
 <td>100%</td>
+<td>0%</td>
 <td>0%</td>
 </tr>
 </tbody>
 </table>
 
 ### Result Sets
-#### Tests.dll - 0%
+#### Tests.dll - 100%
 <details>
 <summary>Full Results</summary>
 <table>
@@ -46,59 +46,23 @@
 </tr>
 </thead>
 <tr>
-<td> ❌ Failed </td>
-<td>Tests.UnitTestPlayer.TestMove<blockquote><details>
-<summary>Error</summary>
-<strong>Message:</strong>
-<pre><code>Assert.Equal() Failure
-Expected: 15
-Actual:   0</code></pre>
-<strong>Stack Trace:</strong>
-<pre><code>   at Tests.UnitTestPlayer.TestMove() in /home/runner/work/csharp-evaluation-2-2021-BioBoost/csharp-evaluation-2-2021-BioBoost/KingsOfNothing/Tests/UnitTestPlayer.cs:line 19</code></pre>
-</details></blockquote>
-</td>
-<td>5ms</td>
+<td> ✔️ Passed </td>
+<td>Tests.UnitTestPlayer.TestMove</td>
+<td>4ms</td>
 </tr>
 <tr>
-<td> ❌ Failed </td>
-<td>Tests.UnitTestPlayer.TestHeal<blockquote><details>
-<summary>Error</summary>
-<strong>Message:</strong>
-<pre><code>Assert.Equal() Failure
-Expected: 40
-Actual:   30</code></pre>
-<strong>Stack Trace:</strong>
-<pre><code>   at Tests.UnitTestPlayer.TestHeal() in /home/runner/work/csharp-evaluation-2-2021-BioBoost/csharp-evaluation-2-2021-BioBoost/KingsOfNothing/Tests/UnitTestPlayer.cs:line 76</code></pre>
-</details></blockquote>
-</td>
+<td> ✔️ Passed </td>
+<td>Tests.UnitTestPlayer.TestHeal</td>
 <td>< 1ms</td>
 </tr>
 <tr>
-<td> ❌ Failed </td>
-<td>Tests.UnitTestPlayer.TestDamage<blockquote><details>
-<summary>Error</summary>
-<strong>Message:</strong>
-<pre><code>Assert.Equal() Failure
-Expected: 95
-Actual:   100</code></pre>
-<strong>Stack Trace:</strong>
-<pre><code>   at Tests.UnitTestPlayer.TestDamage() in /home/runner/work/csharp-evaluation-2-2021-BioBoost/csharp-evaluation-2-2021-BioBoost/KingsOfNothing/Tests/UnitTestPlayer.cs:line 38</code></pre>
-</details></blockquote>
-</td>
+<td> ✔️ Passed </td>
+<td>Tests.UnitTestPlayer.TestDamage</td>
 <td>< 1ms</td>
 </tr>
 <tr>
-<td> ❌ Failed </td>
-<td>Tests.UnitTestPlayer.TestAlive<blockquote><details>
-<summary>Error</summary>
-<strong>Message:</strong>
-<pre><code>Assert.True() Failure
-Expected: True
-Actual:   False</code></pre>
-<strong>Stack Trace:</strong>
-<pre><code>   at Tests.UnitTestPlayer.TestAlive() in /home/runner/work/csharp-evaluation-2-2021-BioBoost/csharp-evaluation-2-2021-BioBoost/KingsOfNothing/Tests/UnitTestPlayer.cs:line 57</code></pre>
-</details></blockquote>
-</td>
+<td> ✔️ Passed </td>
+<td>Tests.UnitTestPlayer.TestAlive</td>
 <td>< 1ms</td>
 </tr>
 </tbody>
@@ -110,30 +74,10 @@ Actual:   False</code></pre>
 <summary>Informational</summary>
 <pre><code>
 [xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET Core 3.1.1)
-[xUnit.net 00:00:00.36]   Discovering: Tests
-[xUnit.net 00:00:00.41]   Discovered:  Tests
+[xUnit.net 00:00:00.35]   Discovering: Tests
+[xUnit.net 00:00:00.40]   Discovered:  Tests
 [xUnit.net 00:00:00.41]   Starting:    Tests
-[xUnit.net 00:00:00.51]       Assert.Equal() Failure
-[xUnit.net 00:00:00.51]       Expected: 15
-[xUnit.net 00:00:00.51]       Actual:   0
-[xUnit.net 00:00:00.51]       Stack Trace:
-[xUnit.net 00:00:00.51]         /home/runner/work/csharp-evaluation-2-2021-BioBoost/csharp-evaluation-2-2021-BioBoost/KingsOfNothing/Tests/UnitTestPlayer.cs(19,0): at Tests.UnitTestPlayer.TestMove()
-[xUnit.net 00:00:00.51]       Assert.Equal() Failure
-[xUnit.net 00:00:00.51]       Expected: 40
-[xUnit.net 00:00:00.51]       Actual:   30
-[xUnit.net 00:00:00.51]       Stack Trace:
-[xUnit.net 00:00:00.51]         /home/runner/work/csharp-evaluation-2-2021-BioBoost/csharp-evaluation-2-2021-BioBoost/KingsOfNothing/Tests/UnitTestPlayer.cs(76,0): at Tests.UnitTestPlayer.TestHeal()
-[xUnit.net 00:00:00.51]       Assert.Equal() Failure
-[xUnit.net 00:00:00.51]       Expected: 95
-[xUnit.net 00:00:00.51]       Actual:   100
-[xUnit.net 00:00:00.52]       Stack Trace:
-[xUnit.net 00:00:00.52]         /home/runner/work/csharp-evaluation-2-2021-BioBoost/csharp-evaluation-2-2021-BioBoost/KingsOfNothing/Tests/UnitTestPlayer.cs(38,0): at Tests.UnitTestPlayer.TestDamage()
-[xUnit.net 00:00:00.52]       Assert.True() Failure
-[xUnit.net 00:00:00.52]       Expected: True
-[xUnit.net 00:00:00.52]       Actual:   False
-[xUnit.net 00:00:00.52]       Stack Trace:
-[xUnit.net 00:00:00.52]         /home/runner/work/csharp-evaluation-2-2021-BioBoost/csharp-evaluation-2-2021-BioBoost/KingsOfNothing/Tests/UnitTestPlayer.cs(57,0): at Tests.UnitTestPlayer.TestAlive()
-[xUnit.net 00:00:00.52]   Finished:    Tests
+[xUnit.net 00:00:00.48]   Finished:    Tests
 </code></pre>
 </details>
 
@@ -146,10 +90,6 @@ Actual:   False</code></pre>
 <details>
 <summary>Error</summary>
 <pre><code>
-[xUnit.net 00:00:00.50]     Tests.UnitTestPlayer.TestMove [FAIL]
-[xUnit.net 00:00:00.51]     Tests.UnitTestPlayer.TestHeal [FAIL]
-[xUnit.net 00:00:00.51]     Tests.UnitTestPlayer.TestDamage [FAIL]
-[xUnit.net 00:00:00.52]     Tests.UnitTestPlayer.TestAlive [FAIL]
 </code></pre>
 </details>
 
